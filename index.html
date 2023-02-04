@@ -18,8 +18,9 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -43,28 +44,32 @@
                 <ul class="social list-inline">
                     <li>
                         <a href="https://github.com/sebastianbaar" target="_blank">
-                            <i class="fa fa-github"></i>
+                            <ion-icon class="ion" name="logo-github"></ion-icon>
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/sebastianbaar" target="_blank">
-                            <i class="fa fa-twitter"></i>
+                            <ion-icon class="ion" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a rel="me" href="https://social.tchncs.de/@sebastianbaar" target="_blank">
+                            <ion-icon class="ion" name="logo-mastodon"></ion-icon>
                         </a>
                     </li>
                     <li>
                         <a href="https://www.xing.com/profile/Sebastian_Baar2" target="_blank">
-                            <i class="fa fa-xing"></i>
+                            <ion-icon class="ion" name="logo-xing"></ion-icon>
                         </a>
                     </li>
                     <li class="last-item">
                         <a href="https://www.linkedin.com/pub/sebastian-baar/39/a9b/419" target="_blank">
-                            <i class="fa fa-linkedin"></i>
+                            <ion-icon class="ion" name="logo-linkedin"></ion-icon>
                         </a>
                     </li>
                 </ul>
             </div>
             <!--//profile-->
-            <!--<a class="btn btn-cta-secondary pull-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact</a>-->
         </div>
         <!--//container-->
     </header>
@@ -177,14 +182,14 @@
                                             <img src="assets/images/apps/Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" alt="">
                                         </a>
                                         <a href='https://play.google.com/store/apps/details?id=de.sebastianbaar.angelpruefungbrandenburg.android'>
-                                            <img style="width: 148px;" alt='Jetzt bei Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/>
+                                            <img style="width: 132px;" alt='Jetzt bei Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/de_badge_web_generic.png'/>
                                         </a>
                                     </p> 
                                     <br>
                                     <p>
                                         <a class="more-link" href="https://sebastianbaar.de/apps/angelpruefung-brandenburg/"
                                             target="_blank">
-                                            <i class="fa fa-external-link"></i> Find out more</a>
+                                            Find out more <ion-icon class="ion" name="arrow-forward-outline"></ion-icon></a>
                                     </p>
                                 </div>
                                 <!--//desc-->
@@ -218,17 +223,9 @@
                                     </p>
                                     <br>
                                     <p>
-                                        There are some
-                                        <strong>Tutorials</strong> available that show how to use native geocoder with Ionic - e.g.
-                                        on
-                                        <a href="https://tphangout.com/ionic-2-geolocation-and-geocoding/">T-Pub :)</a> and on
-                                        <a href="https://masteringionic.com/blog/2017-06-13-geocodingreverse-geocoding-with-ionic-native/">Mastering Ionic</a>. Thank you guys!
-                                    </p>
-                                    <br>
-                                    <p>
                                         <a class="more-link" href="https://www.npmjs.com/package/cordova-plugin-nativegeocoder"
                                             target="_blank">
-                                            <i class="fa fa-external-link"></i> Find out more</a>
+                                            Find out more <ion-icon class="ion" name="arrow-forward-outline"></ion-icon></a> 
                                     </p>
                                 </div>
                                 <!--//desc-->
@@ -251,10 +248,10 @@
                         <div class="content">
                             <ul class="list-unstyled">
                                 <li>
-                                    <i class="fa fa-map-marker"></i>
-                                    <span class="sr-only">Location:</span>&nbsp;Ratingen, Germany</li>
+                                    <ion-icon style="color:#778492;" class="ion" name="map"></ion-icon>
+                                    <span class="sr-only">Location:</span>Ratingen / Düsseldorf, Germany</li>
                                 <li>
-                                    <i class="fa fa-envelope-o"></i>
+                                    <ion-icon style="color:#778492;" class="ion" name="mail"></ion-icon>
                                     <span class="sr-only">Email:</span>apps [.] sebastianbaar [at] gmail [.] com</li>
                             </ul>
                         </div>
@@ -266,7 +263,7 @@
 
                 <aside class="skills aside section">
                     <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
+                        <ion-icon style="color:#778492;" size="large" name="code"></ion-icon>
                         <div class="content">
                             <p class="intro"></p>
 
@@ -287,9 +284,9 @@
                                 <div class="item">
                                     <h3>Web Frontend</h3>
                                     <ul>
-                                        <li>JavaScript</li>                                        
+                                        <li>JavaScript / TypeScript</li>                                        
                                         <li>Angular</li>
-                                        <li>Vue.js</li>
+                                        <li>Vue</li>
                                         <li>HTML & CSS/SASS</li>
                                     </ul>
                                 </div>
@@ -307,6 +304,7 @@
                             </div>
                         </div>
                         <!--//content-->
+                        <ion-icon style="color:#778492;" size="large" name="code-slash"></ion-icon>
                     </div>
                     <!--//section-inner-->
                 </aside>
@@ -318,7 +316,7 @@
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">
-                                    <i class="fa fa-graduation-cap"></i> iSAQB Certified Professional for Software Architecture (CPSA-F)</h3>
+                                    <ion-icon class="ion" name="ribbon"></ion-icon> iSAQB Certified Professional for Software Architecture (CPSA-F)</h3>
                                 <h4 class="university">iSAQB
                                     <span class="year">(2021)</span>
                                 </h4>
@@ -326,7 +324,7 @@
                             <!--//item-->
                             <div class="item">
                                 <h3 class="title">
-                                    <i class="fa fa-graduation-cap"></i> Ausbilderschein</h3>
+                                    <ion-icon class="ion" name="ribbon"></ion-icon> Ausbilderschein</h3>
                                 <h4 class="university">IHK Düsseldorf
                                     <span class="year">(2020)</span>
                                 </h4>
@@ -334,7 +332,7 @@
                             <!--//item-->
                             <div class="item">
                                 <h3 class="title">
-                                    <i class="fa fa-graduation-cap"></i> MSc Information Systems</h3>
+                                    <ion-icon class="ion" name="ribbon"></ion-icon> MSc Information Systems</h3>
                                 <h4 class="university">Westfälische Wilhelms-Universität Münster
                                     <span class="year">(2013-2016)</span>
                                 </h4>
@@ -342,7 +340,7 @@
                             <!--//item-->
                             <div class="item">
                                 <h3 class="title">
-                                    <i class="fa fa-graduation-cap"></i> BSc Wirtschaftsinformatik</h3>
+                                    <ion-icon class="ion" name="ribbon"></ion-icon> BSc Wirtschaftsinformatik</h3>
                                 <h4 class="university">FOM Hochschule für Oekonomie & Management
                                     <span class="year">(2010-2013)</span>
                                 </h4>
@@ -350,7 +348,7 @@
                             <!--//item-->
                             <div class="item">
                                 <h3 class="title">
-                                    <i class="fa fa-industry"></i> Informatik-Kaufmann</h3>
+                                    <ion-icon class="ion" name="ribbon"></ion-icon> Informatik-Kaufmann</h3>
                                 <h4 class="university">Hypothekenbank in Essen AG & National-Bank AG
                                     <span class="year">(2007-2010)</span>
                                 </h4>
@@ -374,12 +372,12 @@
     <!-- ******FOOTER****** -->
     <footer class="footer">
         <div class="container">
-            <small class="copyright">&copy; 2022 Sebastian Baar 🚀 </small>
+            <small class="copyright">&copy; 2023 Sebastian Baar 🚀 </small>
             <small class="copyright">|
                 <a href="impressum.html">Impressum</a>
             </small>
             <small class="copyright licence">Designed with
-                <i class="fa fa-heart"></i> by
+                <ion-icon class="ion" name="heart"></ion-icon></i> by
                 <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
         </div>
         <!--//container-->
