@@ -550,3 +550,7 @@ iframe {
     width: 1360px;
   }
 }
+
+.row img {
+    padding: 20px;
+}
