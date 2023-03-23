@@ -554,3 +554,22 @@ iframe {
 .row img {
     padding: 20px;
 }
+
+.tags {
+  display: flex;
+  margin: 20px 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tags span {
+  margin: 5px 5px 5px 0px;
+  padding: 5px 10px;
+  background-color: #2e7190;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 12px;
+}
